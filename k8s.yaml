@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: resttemplateserver-hub
-          image: jikoa/resttemplateserver-hub:243aeea20b9677d01dfba0e9758230d4318a8661
+          image: jikoa/resttemplateserver-hub:6acfa3bad53f8e556789d1fa893eefa679d8028a
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
